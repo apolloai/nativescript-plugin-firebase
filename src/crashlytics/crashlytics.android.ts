@@ -58,7 +58,7 @@ export function setUserId(id: string): void {
 
 export function crash(): void {
   if (isCrashlyticsAvailable()) {
-    throw new java.lang.RuntimeException('Test Crash');
+    throw new java.lang.RuntimeException('Test Firebase Crashlytics Crash');
   }
 }
 
